@@ -151,7 +151,7 @@ def display_rich_output(model, step, log, model_dir):
 
 def set_hyperparameters(model_dir,
           hp=None,
-          max_steps=1e7,
+          max_steps=1e5,
           display_step=500,
           ruleset='mante',
           rule_trains=None,
